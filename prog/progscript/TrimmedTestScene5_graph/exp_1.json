@@ -1,0 +1,413 @@
+{
+ "Pick up spare change on dresser": {
+  "script": [
+   "[Walk] <bedroom> (1)",
+   "[Walk] <dresser> (1)",
+   "[Find] <dresser> (1)",
+   "[Find] <coin> (1)",
+   "[Grab] <coin> (1)",
+   "[Putin] <coin> (1) <pocket> (1)"
+  ],
+  "assert_script": [
+   "[Walk] <bedroom> (1)",
+   "[Walk] <dresser> (1)",
+   "[Find] <dresser> (1)",
+   "[Find] <coin> (1)",
+   "assert('close' to 'coin')",
+   "else: [Find] <coin> (1)",
+   "[Grab] <coin> (1)",
+   "assert('close' to 'coin')",
+   "else: [Find] <coin> (1)",
+   "[Putin] <coin> (1) <pocket> (1)"
+  ]
+ },
+ "Turn on TV": {
+  "script": [
+   "[Find] <remote_control> (1)",
+   "[Find] <television> (1)",
+   "[Switchon] <television> (1)",
+   "[Turnto] <television> (1)",
+   "[Lookat] <television> (1)"
+  ],
+  "assert_script": [
+   "[Find] <remote_control> (1)",
+   "[Find] <television> (1)",
+   "assert('close' to 'tv')",
+   "else: [Find] <tv> (1)",
+   "assert('remote_control' in 'hands'):",
+   "else: [Find] <remote_control> (1)",
+   "assert('tv' is 'switchoff')",
+   "else: [Switchoff] <tv> (1)",
+   "[Switchon] <television> (1)",
+   "[Turnto] <television> (1)",
+   "[Lookat] <television> (1)"
+  ]
+ },
+ "Wash sink": {
+  "script": [
+   "[Walk] <kitchen> (1)",
+   "[Find] <sink> (1)",
+   "[Turnto] <sink> (1)",
+   "[Lookat] <sink> (1)",
+   "[Turnon] <faucet> (1)",
+   "[Pour] <soap> (1)",
+   "[Grab] <sponge> (1)",
+   "[Wash] <sponge> (1)",
+   "[Putobjback] <sponge> (1)",
+   "[Turnoff] <faucet> (1)"
+  ],
+  "assert_script": [
+   "[Walk] <kitchen> (1)",
+   "[Find] <sink> (1)",
+   "[Turnto] <sink> (1)",
+   "[Lookat] <sink> (1)",
+   "assert('close' to 'sink')",
+   "else: [Find] <sink> (1)",
+   "[Turnon] <faucet> (1)",
+   "assert('close' to 'soap')",
+   "else: [Find] <soap> (1)",
+   "[Pour] <soap> (1)",
+   "[Grab] <sponge> (1)",
+   "assert('sponge' in 'hands')",
+   "else: [Grab] <sponge> (1)",
+   "[Wash] <sponge> (1)",
+   "[Putobjback] <sponge> (1)",
+   "[Turnoff] <faucet> (1)"
+  ]
+ },
+ "Hang up jacket": {
+  "script": [
+   "[Find] <hanger> (1)",
+   "[Grab] <hanger> (1)",
+   "[Find] <clothes_jacket> (1)",
+   "[Grab] <hanger> (1)",
+   "[Turnto] <clothes_jacket> (1)",
+   "[Hang] <clothes_jacket> (1)"
+  ],
+  "assert_script": [
+   "[Find] <hanger> (1)",
+   "[Grab] <hanger> (1)",
+   "assert('hanger' in 'hands')",
+   "else: [Grab] <hanger> (1)",
+   "[Find] <clothes_jacket> (1)",
+   "assert('close' to 'hanger')",
+   "else: [Find] <hanger> (1)",
+   "[Grab] <hanger> (1)",
+   "assert('hanger' in 'hands')",
+   "else: [Grab] <hanger> (1)",
+   "[Turnto] <clothes_jacket> (1)",
+   "assert('close' to 'clothes_jacket')",
+   "else: [Find] <clothes_jacket> (1)",
+   "[Hang] <clothes_jacket> (1)"
+  ]
+ },
+ "Read newspaper": {
+  "script": [
+   "[Find] <newspaper> (1)",
+   "[Grab] <newspaper> (1)",
+   "[Find] <chair> (1)",
+   "[Sit] <chair> (1)",
+   "[Lookat] <newspaper> (1)",
+   "[Read] <newspaper> (1)"
+  ],
+  "assert_script": [
+   "[Find] <newspaper> (1)",
+   "[Grab] <newspaper> (1)",
+   "[Find] <chair> (1)",
+   "[Sit] <chair> (1)",
+   "[Lookat] <newspaper> (1)",
+   "[Read] <newspaper> (1)"
+  ]
+ },
+ "Clean toilet": {
+  "script": [
+   "[Find] <toilet> (1)",
+   "[Pour] <toilet_cleaner> (1)",
+   "[Grab] <toilet_brush> (1)",
+   "[Turnto] <toilet> (1)",
+   "[Wash] <toilet_brush> (1)",
+   "[Flush] <toilet> (1)",
+   "[Wipe] <toilet> (1)",
+   "[Putobjback] <toilet_cleaner> (1)",
+   "[Putobjback] <toilet_brush> (1)"
+  ],
+  "assert_script": [
+   "[Find] <toilet> (1)",
+   "assert('close' to 'toilet')",
+   "else: [Find] <toilet> (1)",
+   "[Pour] <toilet_cleaner> (1)",
+   "[Grab] <toilet_brush> (1)",
+   "assert('close' to 'toilet')",
+   "else: [Find] <toilet> (1)",
+   "[Turnto] <toilet> (1)",
+   "[Wash] <toilet_brush> (1)",
+   "[Flush] <toilet> (1)",
+   "[Wipe] <toilet> (1)",
+   "[Putobjback] <toilet_cleaner> (1)",
+   "[Putobjback] <toilet_brush> (1)"
+  ]
+ },
+ "Start computer": {
+  "script": [
+   "[Walk] <home_office> (1)",
+   "[Find] <computer> (1)",
+   "[Plugin] <computer> (1)",
+   "[Open] <computer> (1)",
+   "[Find] <mouse> (1)",
+   "[Grab] <mouse> (1)",
+   "[Turnto] <mouse> (1)",
+   "[Pointat] <mouse> (1)",
+   "[Find] <keyboard> (1)",
+   "[Grab] <keyboard> (1)",
+   "[Turnto] <keyboard> (1)",
+   "[Pointat] <keyboard> (1)"
+  ],
+  "assert_script": [
+   "[Walk] <home_office> (1)",
+   "[Find] <computer> (1)",
+   "assert('close' to 'computer')",
+   "else: [Find] <computer> (1)",
+   "[Plugin] <computer> (1)",
+   "[Open] <computer> (1)",
+   "[Find] <mouse> (1)",
+   "assert('close' to 'mouse')",
+   "else: [Find] <mouse> (1)",
+   "[Grab] <mouse> (1)",
+   "[Turnto] <mouse> (1)",
+   "[Pointat] <mouse> (1)",
+   "[Find] <keyboard> (1)",
+   "[Grab] <keyboard> (1)",
+   "[Turnto] <keyboard> (1)",
+   "[Pointat] <keyboard> (1)"
+  ]
+ },
+ "Put alarm clock in bedroom": {
+  "script": [
+   "[Walk] <bedroom> (1)",
+   "[Find] <alarm_clock> (1)",
+   "[Grab] <alarm_clock> (1)",
+   "[Find] <bed> (1)",
+   "[Puton] <alarm_clock> (1)"
+  ],
+  "assert_script": [
+   "[Walk] <bedroom> (1)",
+   "[Find] <alarm_clock> (1)",
+   "[Grab] <alarm_clock> (1)",
+   "[Find] <bed> (1)",
+   "[Puton] <alarm_clock> (1)"
+  ]
+ },
+ "Look at mirror": {
+  "script": [
+   "[Find] <mirror> (1)",
+   "[Turnto] <mirror> (1)",
+   "[Lookat] <mirror> (1)"
+  ],
+  "assert_script": [
+   "[Find] <mirror> (1)",
+   "[Turnto] <mirror> (1)",
+   "[Lookat] <mirror> (1)"
+  ]
+ },
+ "Take nap": {
+  "script": [
+   "[Walk] <bedroom> (1)",
+   "[Walk] <bed> (1)",
+   "[Find] <bed> (1)",
+   "[Turnto] <bed> (1)",
+   "[Lookat] <bed> (1)",
+   "[Sit] <bed> (1)",
+   "[Walk] <kitchen> (1)",
+   "[Find] <coffee_maker> (1)",
+   "[Grab] <coffee_pot> (1)",
+   "[Find] <coffee> (1)",
+   "[Pour] <coffee> (1)",
+   "[Puton] <coffee_pot> (1)",
+   "[Switchon] <coffee_maker> (1)",
+   "[Waitfor] <coffee_maker> (1)",
+   "[Takeoff] <coffee_pot> (1)",
+   "[Serve] <coffee> (1)"
+  ],
+  "assert_script": [
+   "[Walk] <bedroom> (1)",
+   "[Walk] <bed> (1)",
+   "[Find] <bed> (1)",
+   "[Turnto] <bed> (1)",
+   "[Lookat] <bed> (1)",
+   "assert('close' to 'bed')",
+   "else: [Find] <bed> (1)",
+   "else: [Turnto] <bed> (1)",
+   "[Sit] <bed> (1)",
+   "[Walk] <kitchen> (1)",
+   "[Find] <coffee_maker> (1)",
+   "[Grab] <coffee_pot> (1)",
+   "[Find] <coffee> (1)",
+   "[Pour] <coffee> (1)",
+   "[Puton] <coffee_pot> (1)",
+   "[Switchon] <coffee_maker> (1)",
+   "[Waitfor] <coffee_maker> (1)",
+   "[Takeoff] <coffee_pot> (1)",
+   "[Serve] <coffee> (1)"
+  ]
+ },
+ "Wash face": {
+  "script": [
+   "[Find] <sink> (1)",
+   "[Switchon] <faucet> (1)",
+   "[Pour] <water> (1)",
+   "[Grab] <towel> (1)",
+   "[Wash] <face> (1)",
+   "[Wipe] <face> (1)",
+   "[Putback] <towel> (1)"
+  ],
+  "assert_script": [
+   "[Find] <sink> (1)",
+   "[Switchon] <faucet> (1)",
+   "[Pour] <water> (1)",
+   "[Grab] <towel> (1)",
+   "[Wash] <face> (1)",
+   "[Wipe] <face> (1)",
+   "[Putback] <towel> (1)"
+  ]
+ },
+ "Sleep": {
+  "script": [
+   "[Find] <bed> (1)",
+   "[Turnto] <bed> (1)",
+   "[Lookat] <bed> (1)",
+   "[Sit] <bed> (1)",
+   "[Close] <eyes> (1)"
+  ],
+  "assert_script": [
+   "[Find] <bed> (1)",
+   "[Turnto] <bed> (1)",
+   "[Lookat] <bed> (1)",
+   "assert('close' to 'bed')",
+   "else: [Find] <bed> (1)",
+   "[Sit] <bed> (1)",
+   "[Close] <eyes> (1)"
+  ]
+ },
+ "Read news": {
+  "script": [
+   "[Walk] <desk> (1)",
+   "[Find] <newspaper> (1)",
+   "[Grab] <newspaper> (1)",
+   "[Turnto] <newspaper> (1)",
+   "[Lookat] <newspaper> (1)",
+   "[Find] <chair> (1)",
+   "[Sit] <chair> (1)",
+   "[Read] <newspaper> (1)",
+   "[Putback] <newspaper> (1)"
+  ],
+  "assert_script": [
+   "[Walk] <desk> (1)",
+   "[Find] <newspaper> (1)",
+   "[Grab] <newspaper> (1)",
+   "[Turnto] <newspaper> (1)",
+   "[Lookat] <newspaper> (1)",
+   "[Find] <chair> (1)",
+   "assert('close' to 'chair')",
+   "else: [Find] <chair> (1)",
+   "[Sit] <chair> (1)",
+   "[Read] <newspaper> (1)",
+   "[Putback] <newspaper> (1)"
+  ]
+ },
+ "Put on your shoes": {
+  "script": [
+   "[Walk] <bedroom> (1)",
+   "[Find] <shoes> (1)",
+   "[Grab] <shoes> (1)",
+   "[Puton] <shoes> (1)"
+  ],
+  "assert_script": [
+   "[Walk] <bedroom> (1)",
+   "[Find] <shoes> (1)",
+   "assert('close' to 'shoes')",
+   "else: [Find] <shoes> (1)",
+   "[Grab] <shoes> (1)",
+   "assert('shoes' in 'hands')",
+   "else: [Grab] <shoes> (1)",
+   "[Puton] <shoes> (1)"
+  ]
+ },
+ "Hand washing": {
+  "script": [
+   "[Walk] <sink> (1)",
+   "[Find] <sink> (1)",
+   "[Turnon] <faucet> (1)",
+   "[Find] <soap> (1)",
+   "[Grab] <soap> (1)",
+   "[Wash] <hands> (1)",
+   "[Turnoff] <faucet> (1)"
+  ],
+  "assert_script": [
+   "[Walk] <sink> (1)",
+   "[Find] <sink> (1)",
+   "assert('close' to 'faucet')",
+   "else: [Find] <faucet> (1)",
+   "[Turnon] <faucet> (1)",
+   "[Find] <soap> (1)",
+   "[Grab] <soap> (1)",
+   "assert('soap' in 'hands')",
+   "else: [Grab] <soap> (1)",
+   "[Wash] <hands> (1)",
+   "assert('close' to 'faucet')",
+   "else: [Find] <faucet> (1)",
+   "[Turnoff] <faucet> (1)"
+  ]
+ },
+ "Drink": {
+  "script": [
+   "[Find] <cup> (1)",
+   "[Grab] <cup> (1)",
+   "[Drink] <cup> (1)"
+  ],
+  "assert_script": [
+   "[Find] <cup> (1)",
+   "assert('close' to 'cup')",
+   "else: [Find] <cup> (1)",
+   "[Grab] <cup> (1)",
+   "assert('close' to 'cup')",
+   "else: [Find] <cup> (1)",
+   "assert('close' to 'cup')",
+   "else: [Find] <cup> (1)",
+   "[Drink] <cup> (1)"
+  ]
+ },
+ "Go to toilet": {
+  "script": [
+   "[Walk] <bathroom> (1)",
+   "[Find] <toilet> (1)",
+   "[Pull] <toilet_lid> (1)",
+   "[Sit] <toilet> (1)"
+  ],
+  "assert_script": [
+   "[Walk] <bathroom> (1)",
+   "[Find] <toilet> (1)",
+   "[Pull] <toilet_lid> (1)",
+   "assert('close' to 'toilet')",
+   "else: [Find] <toilet> (1)",
+   "[Sit] <toilet> (1)"
+  ]
+ },
+ "Pick up phone": {
+  "script": [
+   "[Walk] <living_room> (1)",
+   "[Find] <phone> (1)",
+   "[Grab] <phone> (1)",
+   "[Walk] <bedroom> (1)",
+   "[Find] <nightstand> (1)",
+   "[Puton] <phone> (1)"
+  ],
+  "assert_script": [
+   "[Walk] <living_room> (1)",
+   "[Find] <phone> (1)",
+   "[Grab] <phone> (1)",
+   "[Walk] <bedroom> (1)",
+   "[Find] <nightstand> (1)",
+   "[Puton] <phone> (1)"
+  ]
+ }
+}

@@ -1,0 +1,135 @@
+Clean toilet
+script before ['[Find] <cleaning_supplies> (1)', '[Grab] <cleaning_supplies> (1)', '[Walk] <toilet> (1)', '[Find] <toilet> (1)', '[Clean] <toilet> (1)', '[Putobjback] <cleaning_supplies> (1)']
+illegal action ('cleaning_supplies', 1) does not exist in the environment  be deleted
+illegal action ('cleaning_supplies', 1) does not exist in the environment  be deleted
+illegal action ('cleaning_supplies', 1) does not exist in the environment  be deleted
+illegal action Unknown action "CLEAN"  be deleted
+illegal action ('cleaning_supplies', 1) does not exist in the environment  be deleted
+illegal action ('cleaning_supplies', 1) does not exist in the environment  be deleted
+illegal action Unknown action "END"  be deleted
+Wash monitor
+script before ['[Find] <monitor> (1)', '[Switchoff] <monitor> (1)', '[Find] <cloth> (1)', '[Grab] <cloth> (1)', '[Wipe] <monitor> (1)', '[Switchon] <monitor> (1)']
+illegal action ('monitor', 1) does not exist in the environment  be deleted
+illegal action ('monitor', 1) does not exist in the environment  be deleted
+illegal action ('monitor', 1) does not exist in the environment  be deleted
+illegal action ('cloth', 1) does not exist in the environment  be deleted
+illegal action ('cloth', 1) does not exist in the environment  be deleted
+illegal action ('monitor', 1) does not exist in the environment  be deleted
+illegal action ('monitor', 1) does not exist in the environment  be deleted
+illegal action ('monitor', 1) does not exist in the environment  be deleted
+illegal action Unknown action "END"  be deleted
+Turn on TV
+script before ['[Walk] <tvstand> (1)', '[Find] <tvstand> (1)', '[Find] <tv> (1)', '[Turnon] <tv> (1)']
+illegal action ('tv', 1) does not exist in the environment  be deleted
+illegal action ('tv', 1) does not exist in the environment  be deleted
+illegal action Unknown action "TURNON"  be deleted
+illegal action Unknown action "END"  be deleted
+Turn on computer
+script before ['[Walk] <chair> (1)', '[Find] <chair> (1)', '[Sit] <chair> (1)', '[Find] <computer> (1)', '[Turnto] <computer> (1)', '[Lookat] <computer> (1)', '[Switchon] <computer> (1)']
+illegal action Unknown action "END"  be deleted
+Shave
+script before ['[Walk] <bathroom> (1)', '[Find] <electric_shaver> (1)', '[Grab] <electric_shaver> (1)', '[Find] <shaving_cream> (1)', '[Grab] <shaving_cream> (1)', '[Puton] <shaving_cream> (1)', '[Turnto] <electric_shaver> (1)', '[Watch] <electric_shaver> (1)', '[Shave] <electric_shaver> (1)', '[Switchoff] <electric_shaver> (1)', '[Putback] <electric_shaver> (1)', '[Putback] <shaving_cream> (1)']
+illegal action ('electric_shaver', 1) does not exist in the environment  be deleted
+illegal action ('electric_shaver', 1) does not exist in the environment  be deleted
+illegal action ('electric_shaver', 1) does not exist in the environment  be deleted
+illegal action ('electric_shaver', 1) does not exist in the environment  be deleted
+illegal action ('electric_shaver', 1) does not exist in the environment  be deleted
+illegal action Unknown action "SHAVE"  be deleted
+illegal action ('electric_shaver', 1) does not exist in the environment  be deleted
+illegal action ('electric_shaver', 1) does not exist in the environment  be deleted
+illegal action Wrong number of parameters for "PUTBACK". Got 1, expected 2  be deleted
+illegal action Wrong number of parameters for "PUTBACK". Got 1, expected 2  be deleted
+illegal action Unknown action "END"  be deleted
+Hang up jacket
+script before ['[Walk] <bedroom> (1)', '[Walk] <hanger> (1)', '[Find] <hanger> (1)', '[Grab] <hanger> (1)', '[Walk] <jacket> (1)', '[Find] <jacket> (1)', '[Grab] <jacket> (1)', '[Pointat] <hanger> (1)', '[Hang] <jacket> (1)']
+illegal action ('jacket', 1) does not exist in the environment  be deleted
+illegal action ('jacket', 1) does not exist in the environment  be deleted
+illegal action ('jacket', 1) does not exist in the environment  be deleted
+illegal action ('jacket', 1) does not exist in the environment  be deleted
+illegal action ('jacket', 1) does not exist in the environment  be deleted
+illegal action Unknown action "HANG"  be deleted
+illegal action Unknown action "END"  be deleted
+Read newspaper
+script before ['[Walk] <kitchen> (1)', '[Find] <table> (1)', '[Lookat] <table> (1)', '[Find] <newspaper> (1)', '[Grab] <newspaper> (1)', '[Turnto] <newspaper> (1)', '[Lookat] <newspaper> (1)', '[Read] <newspaper> (1)']
+illegal action 'kitchen'  be deleted
+illegal action Unknown action "END"  be deleted
+Sit
+script before ['[Walk] <chair> (1)', '[Find] <chair> (1)', '[Sit] <chair> (1)']
+illegal action Unknown action "END"  be deleted
+Sleep
+script before ['[Walk] <bed> (1)', '[Find] <bed> (1)', '[Lay] <bed> (1)', '[Close] <eyes> (1)']
+illegal action Unknown action "LAY"  be deleted
+illegal action ('eyes', 1) does not exist in the environment  be deleted
+illegal action Unknown action "END"  be deleted
+Put alarm clock in bedroom
+script before ['[Walk] <home_office> (1)', '[Find] <alarm_clock> (1)', '[Grab] <alarm_clock> (1)', '[Walk] <bedroom> (1)', '[Find] <bedroom> (1)', '[Putin] <alarm_clock> (1) <bedroom> (1)']
+illegal action Unknown action "END"  be deleted
+Sit in chair
+script before ['[Walk] <chair> (1)', '[Find] <chair> (1)', '[Sit] <chair> (1)']
+illegal action Unknown action "END"  be deleted
+Open bathroom window
+script before ['[Walk] <bathroom> (1)', '[Find] <window> (1)', '[Open] <window> (1)']
+illegal action Unknown action "END"  be deleted
+Use computer
+script before ['[Walk] <chair> (1)', '[Find] <chair> (1)', '[Sit] <chair> (1)', '[Find] <computer> (1)', '[Turnto] <computer> (1)', '[Lookat] <computer> (1)', '[Open] <computer> (1)', '[Use] <computer> (1)']
+illegal action Unknown action "USE"  be deleted
+illegal action Unknown action "END"  be deleted
+Wash face
+script before ['[Find] <sink> (1)', '[Walktowards] <sink> (1)', '[Switchon] <faucet> (1)', '[Find] <face_wash> (1)', '[Grab] <face_wash> (1)', '[Wash] <face_wash> (1)', '[Switchoff] <faucet> (1)', '[Putback] <face_wash> (1)']
+illegal action Unknown action "WALKTOWARDS"  be deleted
+illegal action ('face_wash', 1) does not exist in the environment  be deleted
+illegal action ('face_wash', 1) does not exist in the environment  be deleted
+illegal action ('face_wash', 1) does not exist in the environment  be deleted
+illegal action ('face_wash', 1) does not exist in the environment  be deleted
+illegal action ('face_wash', 1) does not exist in the environment  be deleted
+illegal action Wrong number of parameters for "PUTBACK". Got 1, expected 2  be deleted
+illegal action Unknown action "END"  be deleted
+Computer work
+script before ['[Walk] <home_office> (1)', '[Find] <computer> (1)', '[Turnto] <computer> (1)', '[Lookat] <computer> (1)', '[Switchon] <computer> (1)', '[Find] <homework> (1)', '[Start] <homework> (1)']
+illegal action ('homework', 1) does not exist in the environment  be deleted
+illegal action Unknown action "START"  be deleted
+illegal action Unknown action "END"  be deleted
+Take nap
+script before ['[Walk] <bedroom> (1)', '[Find] <bed> (1)', '[Sit] <bed> (1)', '[Lie] <bed> (1)', '[Lookat] <bed> (1)', '[Grab] <blanket> (1)', '[Puton] <blanket> (1) <bed> (1)', '[Sleep] <bed> (1)']
+illegal action ('blanket', 1) does not exist in the environment  be deleted
+illegal action Wrong number of parameters for "PUTON". Got 2, expected 1  be deleted
+illegal action Wrong number of parameters for "SLEEP". Got 1, expected 0  be deleted
+illegal action Unknown action "END"  be deleted
+Do work on computer
+script before ['[Find] <laptop> (1)', '[Open] <laptop> (1)', '[Switchon] <laptop> (1)', '[Find] <homework> (1)', '[Open] <homework> (1)', '[Lookat] <homework> (1)', '[Do] <homework> (1)', '[Switchoff] <laptop> (1)']
+illegal action ('laptop', 1) does not exist in the environment  be deleted
+illegal action ('laptop', 1) does not exist in the environment  be deleted
+illegal action ('laptop', 1) does not exist in the environment  be deleted
+illegal action ('laptop', 1) does not exist in the environment  be deleted
+illegal action ('laptop', 1) does not exist in the environment  be deleted
+illegal action Unknown action "DO"  be deleted
+illegal action ('laptop', 1) does not exist in the environment  be deleted
+illegal action ('laptop', 1) does not exist in the environment  be deleted
+illegal action Unknown action "END"  be deleted
+Read news
+script before ['[Walk] <home_office> (1)', '[Find] <newspaper> (1)', '[Lookat] <newspaper> (1)', '[Read] <newspaper> (1)', '[Putobjback] <newspaper> (1)']
+illegal action Unknown action "END"  be deleted
+Hand washing
+script before ['[Walk] <kitchen_sink> (1)', '[Find] <sink> (1)', '[Turnon] <faucet> (1)', '[Find] <soap> (1)', '[Grab] <soap> (1)', '[Wash] <hands> (1)', '[Turnoff] <faucet> (1)', '[Putback] <soap> (1)']
+illegal action ('kitchen_sink', 1) does not exist in the environment  be deleted
+illegal action Unknown action "TURNON"  be deleted
+illegal action ('hands', 1) does not exist in the environment  be deleted
+illegal action Unknown action "TURNOFF"  be deleted
+illegal action Wrong number of parameters for "PUTBACK". Got 1, expected 2  be deleted
+illegal action Unknown action "END"  be deleted
+Clean bathroom
+script before ['[Walk] <bathroom> (1)', '[Find] <sponge> (1)', '[Grab] <sponge> (1)', '[Wash] <sponge> (1)', '[Putback] <sponge> (1)']
+illegal action ('sponge', 1) does not exist in the environment  be deleted
+illegal action ('sponge', 1) does not exist in the environment  be deleted
+illegal action ('sponge', 1) does not exist in the environment  be deleted
+illegal action ('sponge', 1) does not exist in the environment  be deleted
+illegal action ('sponge', 1) does not exist in the environment  be deleted
+illegal action ('sponge', 1) does not exist in the environment  be deleted
+illegal action Wrong number of parameters for "PUTBACK". Got 1, expected 2  be deleted
+illegal action Unknown action "END"  be deleted
+Pick up phone
+script before ['[Find] <phone> (1)', '[Grab] <phone> (1)']
+illegal action Unknown action "END"  be deleted
+Go to toilet
+script before ['[Walk] <toilet> (1)', '[Find] <toilet> (1)', '[Open] <door> (1)', '[Walk] <toilet> (1)', '[Sit] <toilet> (1)']
+illegal action Unknown action "END"  be deleted

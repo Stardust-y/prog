@@ -1,0 +1,92 @@
+{
+ "0": {
+  "executability": 0,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1288
+ },
+ "1": {
+  "executability": 0,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1347
+ },
+ "2": {
+  "executability": 0,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1411
+ },
+ "3": {
+  "executability": 0,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1634
+ },
+ "4": {
+  "executability": 0,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1250
+ },
+ "5": {
+  "executability": 0,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 2133
+ },
+ "6": {
+  "executability": 1,
+  "success rate": 1,
+  "gcr": 1.0,
+  "tokens": 1488
+ },
+ "7": {
+  "executability": 0,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1742
+ },
+ "8": {
+  "executability": 0,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1543
+ },
+ "9": {
+  "executability": 1,
+  "success rate": 1,
+  "gcr": 1.0,
+  "tokens": 1457
+ },
+ "10": {
+  "executability": 0,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1424
+ },
+ "11": {
+  "executability": 0,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1298
+ },
+ "12": {
+  "executability": 0,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1327
+ },
+ "13": {
+  "executability": 1,
+  "success rate": 1,
+  "gcr": 1.0,
+  "tokens": 1368
+ },
+ "14": {
+  "executability": 1,
+  "success rate": 1,
+  "gcr": 1.0,
+  "tokens": 1430
+ }
+}

@@ -1,0 +1,110 @@
+{
+ "0": {
+  "executability": 1,
+  "success rate": 0,
+  "gcr": 0.25,
+  "tokens": 1225
+ },
+ "1": {
+  "executability": 0,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1389
+ },
+ "2": {
+  "executability": 0,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1380
+ },
+ "3": {
+  "executability": 0,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1297
+ },
+ "4": {
+  "executability": 1,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1200
+ },
+ "5": {
+  "executability": 1,
+  "success rate": 0,
+  "gcr": 0.3333333333333333,
+  "tokens": 1458
+ },
+ "6": {
+  "executability": 0,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1539
+ },
+ "7": {
+  "executability": 0,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1200
+ },
+ "8": {
+  "executability": 1,
+  "success rate": 1,
+  "gcr": 1.0,
+  "tokens": 1163
+ },
+ "9": {
+  "executability": 1,
+  "success rate": 1,
+  "gcr": 1.0,
+  "tokens": 1385
+ },
+ "10": {
+  "executability": 0,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1305
+ },
+ "11": {
+  "executability": 0,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1144
+ },
+ "12": {
+  "executability": 0,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1189
+ },
+ "13": {
+  "executability": 0,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1658
+ },
+ "14": {
+  "executability": 0,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1521
+ },
+ "15": {
+  "executability": 0,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1207
+ },
+ "16": {
+  "executability": 1,
+  "success rate": 1,
+  "gcr": 1.0,
+  "tokens": 1170
+ },
+ "17": {
+  "executability": 1,
+  "success rate": 0,
+  "gcr": 0.3333333333333333,
+  "tokens": 1393
+ }
+}

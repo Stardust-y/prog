@@ -1,0 +1,134 @@
+{
+ "0": {
+  "executability": 0,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1295
+ },
+ "1": {
+  "executability": 1,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1246
+ },
+ "2": {
+  "executability": 0,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1674
+ },
+ "3": {
+  "executability": 1,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1489
+ },
+ "4": {
+  "executability": 1,
+  "success rate": 0,
+  "gcr": 0.5,
+  "tokens": 1341
+ },
+ "5": {
+  "executability": 0,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1256
+ },
+ "6": {
+  "executability": 1,
+  "success rate": 0,
+  "gcr": 0.25,
+  "tokens": 1573
+ },
+ "7": {
+  "executability": 1,
+  "success rate": 0,
+  "gcr": 0.6666666666666666,
+  "tokens": 1338
+ },
+ "8": {
+  "executability": 1,
+  "success rate": 0,
+  "gcr": 0.6666666666666666,
+  "tokens": 1208
+ },
+ "9": {
+  "executability": 0,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1765
+ },
+ "10": {
+  "executability": 0,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1463
+ },
+ "11": {
+  "executability": 0,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1307
+ },
+ "12": {
+  "executability": 0,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1518
+ },
+ "13": {
+  "executability": 0,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1338
+ },
+ "14": {
+  "executability": 1,
+  "success rate": 1,
+  "gcr": 1.0,
+  "tokens": 1791
+ },
+ "15": {
+  "executability": 0,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1244
+ },
+ "16": {
+  "executability": 0,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 2062
+ },
+ "17": {
+  "executability": 1,
+  "success rate": 0,
+  "gcr": 0.5,
+  "tokens": 1482
+ },
+ "18": {
+  "executability": 0,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1432
+ },
+ "19": {
+  "executability": 0,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1421
+ },
+ "20": {
+  "executability": 1,
+  "success rate": 1,
+  "gcr": 1.0,
+  "tokens": 1525
+ },
+ "21": {
+  "executability": 1,
+  "success rate": 1,
+  "gcr": 1.0,
+  "tokens": 1417
+ }
+}

@@ -1,0 +1,110 @@
+{
+ "0": {
+  "executability": 1,
+  "success rate": 0,
+  "gcr": 0.25,
+  "tokens": 1426
+ },
+ "1": {
+  "executability": 0,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1307
+ },
+ "2": {
+  "executability": 1,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1337
+ },
+ "3": {
+  "executability": 0,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1269
+ },
+ "4": {
+  "executability": 0,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1188
+ },
+ "5": {
+  "executability": 0,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1622
+ },
+ "6": {
+  "executability": 0,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1597
+ },
+ "7": {
+  "executability": 0,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1189
+ },
+ "8": {
+  "executability": 1,
+  "success rate": 1,
+  "gcr": 1.0,
+  "tokens": 1152
+ },
+ "9": {
+  "executability": 0,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1583
+ },
+ "10": {
+  "executability": 0,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1197
+ },
+ "11": {
+  "executability": 1,
+  "success rate": 0,
+  "gcr": 0.6666666666666666,
+  "tokens": 1386
+ },
+ "12": {
+  "executability": 1,
+  "success rate": 0,
+  "gcr": 0.25,
+  "tokens": 1447
+ },
+ "13": {
+  "executability": 1,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1335
+ },
+ "14": {
+  "executability": 1,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1785
+ },
+ "15": {
+  "executability": 1,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1475
+ },
+ "16": {
+  "executability": 1,
+  "success rate": 1,
+  "gcr": 1.0,
+  "tokens": 1337
+ },
+ "17": {
+  "executability": 0,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1179
+ }
+}

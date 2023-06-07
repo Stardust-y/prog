@@ -1,0 +1,994 @@
+Args info:
+language_planner_result_file: language_planner.json
+retry_times: 0
+n_shots: 1
+instruction: False
+step_by_step_generation_prompt_path: None
+step_by_step_generation_result_file: None
+object_topk: 5
+grounded_deciding_prompt_path: None
+grounded_deciding_result_file: default_gd.json
+prompt_choices_sequence: False
+dataset_split: validation
+dataset: ./data/val.json
+retrieval_dataset: ./data/train.json
+example_idx_file: None
+api_keys_file: key.txt
+save_dir: results/
+plan_generation_result_file: default_pg.json
+processed_plan_generation_result_file: None
+graph_dict_path: None
+plan_generation_prompt_path: None
+n_processes: 1
+seed: 42
+engine: text-davinci-003
+n_parallel_prompts: 1
+max_generation_tokens: 512
+max_api_total_tokens: 4096
+temperature: 0.4
+sampling_n: 20
+top_p: 1.0
+stop_tokens: ['\n\n']
+verbose: False
+0
+assert assert('close' to 'toaster')
+prompt You see toaster is plugged_out, off, clean
+toaster is close to stovefan
+toaster is facing drawing
+toaster is close to cupboard
+toaster is close to faucet
+ceiling is close to toaster
+toaster is inside dining_room
+toaster is close to microwave
+toaster is close to character
+oven is close to toaster
+kitchen_counter is close to toaster
+faucet is close to toaster
+toaster is close to wall
+character is close to toaster
+microwave is close to toaster
+toaster is close to coffe_maker
+toaster is close to oven
+fridge is close to toaster
+cupboard is close to toaster
+coffe_maker is close to toaster
+toaster is close to floor
+toaster is close to fridge
+toaster is close to ceiling
+toaster is on kitchen_counter
+floor is close to toaster
+stovefan is close to toaster
+wall is close to toaster
+toaster is close to kitchen_counter
+toaster is inside dining_room
+You have Currently, you are standing in the dining_room, and holding nothing in your right hand and nothing in your left hand., give one word answer True or False to this assert statement: assert('close' to 'toaster'), 
+prediction True
+assert assert('close' to 'toaster')
+prompt You see toaster is plugged_in, off, clean
+toaster is close to stovefan
+toaster is facing drawing
+toaster is close to cupboard
+toaster is close to faucet
+ceiling is close to toaster
+toaster is inside dining_room
+toaster is close to microwave
+toaster is close to character
+oven is close to toaster
+kitchen_counter is close to toaster
+faucet is close to toaster
+toaster is close to wall
+character is close to toaster
+microwave is close to toaster
+toaster is close to coffe_maker
+toaster is close to oven
+fridge is close to toaster
+cupboard is close to toaster
+coffe_maker is close to toaster
+toaster is close to floor
+toaster is close to fridge
+toaster is close to ceiling
+toaster is on kitchen_counter
+floor is close to toaster
+stovefan is close to toaster
+wall is close to toaster
+toaster is close to kitchen_counter
+toaster is inside dining_room
+You have Currently, you are standing in the dining_room, and holding nothing in your right hand and nothing in your left hand., give one word answer True or False to this assert statement: assert('close' to 'toaster'), 
+prediction True
+assert assert('close' to 'toaster')
+prompt You see toaster is plugged_in, off, clean
+toaster is close to stovefan
+toaster is facing drawing
+toaster is close to cupboard
+toaster is close to faucet
+ceiling is close to toaster
+toaster is inside dining_room
+toaster is close to microwave
+toaster is close to character
+oven is close to toaster
+kitchen_counter is close to toaster
+faucet is close to toaster
+toaster is close to wall
+character is close to toaster
+microwave is close to toaster
+toaster is close to coffe_maker
+toaster is close to oven
+fridge is close to toaster
+cupboard is close to toaster
+coffe_maker is close to toaster
+toaster is close to floor
+toaster is close to fridge
+toaster is close to ceiling
+toaster is on kitchen_counter
+floor is close to toaster
+stovefan is close to toaster
+wall is close to toaster
+toaster is close to kitchen_counter
+toaster is inside dining_room
+You have Currently, you are standing in the dining_room, and holding nothing in your right hand and nothing in your left hand., give one word answer True or False to this assert statement: assert('close' to 'toaster'), 
+prediction True
+assert assert('close' to 'toaster')
+prompt You see toaster is on, plugged_in, clean
+toaster is close to stovefan
+toaster is facing drawing
+toaster is close to cupboard
+toaster is close to faucet
+ceiling is close to toaster
+toaster is inside dining_room
+toaster is close to microwave
+toaster is close to character
+oven is close to toaster
+kitchen_counter is close to toaster
+faucet is close to toaster
+toaster is close to wall
+character is close to toaster
+microwave is close to toaster
+toaster is close to coffe_maker
+toaster is close to oven
+fridge is close to toaster
+cupboard is close to toaster
+coffe_maker is close to toaster
+toaster is close to floor
+toaster is close to fridge
+toaster is close to ceiling
+toaster is on kitchen_counter
+floor is close to toaster
+stovefan is close to toaster
+wall is close to toaster
+toaster is close to kitchen_counter
+toaster is inside dining_room
+You have Currently, you are standing in the dining_room, and holding nothing in your right hand and nothing in your left hand., give one word answer True or False to this assert statement: assert('close' to 'toaster'), 
+prediction True
+assert assert('close' to 'toaster')
+prompt You see toaster is on, plugged_in, clean
+toaster is close to stovefan
+toaster is facing drawing
+toaster is close to cupboard
+toaster is close to faucet
+ceiling is close to toaster
+toaster is inside dining_room
+toaster is close to microwave
+toaster is close to character
+oven is close to toaster
+kitchen_counter is close to toaster
+faucet is close to toaster
+toaster is close to wall
+character is close to toaster
+microwave is close to toaster
+toaster is close to coffe_maker
+toaster is close to oven
+fridge is close to toaster
+cupboard is close to toaster
+coffe_maker is close to toaster
+toaster is close to floor
+toaster is close to fridge
+toaster is close to ceiling
+toaster is on kitchen_counter
+floor is close to toaster
+stovefan is close to toaster
+wall is close to toaster
+toaster is close to kitchen_counter
+toaster is inside dining_room
+You have Currently, you are standing in the dining_room, and holding nothing in your right hand and nothing in your left hand., give one word answer True or False to this assert statement: assert('close' to 'toaster'), 
+prediction True
+end of script
+gcr, sr 0.5 0
+1
+assert assert('close' to 'pot')
+prompt You see pot is 
+character is close to pot
+pot is inside dining_room
+pot is close to character
+pot is inside dining_room
+You have Currently, you are standing in the dining_room, and holding nothing in your right hand and nothing in your left hand., give one word answer True or False to this assert statement: assert('close' to 'pot'), 
+prediction True
+assert assert('close' to 'stove')
+prompt You see stove is off
+stove is inside dining_room
+stove is inside dining_room
+You have Currently, you are standing in the dining_room, and holding pot in your right hand and nothing in your left hand., give one word answer True or False to this assert statement: assert('close' to 'stove'), 
+prediction False
+assert assert('stove' is 'switchoff')
+prompt You see stove is off
+stove is close to character
+character is close to stove
+stove is inside dining_room
+stove is inside dining_room
+You have Currently, you are standing in the dining_room, and holding pot in your right hand and nothing in your left hand., give one word answer True or False to this assert statement: assert('stove' is 'switchoff'), 
+prediction False
+execute failed at assert else at ['[SWITCHOFF] <stove> (1028)']
+2
+assert assert('close' to 'bookshelf')
+prompt You see bookshelf is closed, clean
+wall is close to bookshelf
+bookshelf is inside home_office
+bookshelf is close to filing_cabinet
+bookshelf is facing drawing
+bookshelf is on floor
+ceiling is close to bookshelf
+book is on bookshelf
+bookshelf is close to walllamp
+bookshelf is close to character
+floor is close to bookshelf
+character is close to bookshelf
+bookshelf is close to drawing
+photoframe is close to bookshelf
+bookshelf is close to wall
+book is close to bookshelf
+drawing is close to bookshelf
+walllamp is close to bookshelf
+photoframe is inside bookshelf
+bookshelf is close to floor
+filing_cabinet is close to bookshelf
+bookshelf is close to photoframe
+bookshelf is close to ceiling
+bookshelf is close to book
+bookshelf is inside home_office
+You have Currently, you are standing in the home_office, and holding nothing in your right hand and nothing in your left hand., give one word answer True or False to this assert statement: assert('close' to 'bookshelf'), 
+prediction True
+end of script
+gcr, sr 0.5 0
+3
+end of script
+gcr, sr 0.0 0
+4
+assert assert('close' to 'wallshelf')
+prompt You see wallshelf is clean
+wallshelf is close to character
+wallshelf is close to walllamp
+wallshelf is inside bathroom
+wallshelf is close to curtain
+wallshelf is close to ceiling
+wall is close to wallshelf
+walllamp is close to wallshelf
+ceiling is close to wallshelf
+towel_rack is close to wallshelf
+character is close to wallshelf
+curtain is close to wallshelf
+bathtub is close to wallshelf
+wallshelf is close to towel_rack
+wallshelf is close to wall
+wallshelf is close to bathtub
+wallshelf is inside bathroom
+You have Currently, you are standing in the bathroom, and holding nothing in your right hand and nothing in your left hand., give one word answer True or False to this assert statement: assert('close' to 'wallshelf'), 
+prediction True
+end of script
+gcr, sr 0.0 0
+5
+assert assert('close' to 'alarm_clock')
+prompt You see alarm_clock is on, plugged_in
+alarm_clock is close to character
+alarm_clock is inside bedroom
+character is close to alarm_clock
+alarm_clock is inside bedroom
+You have Currently, you are standing in the bedroom, and holding nothing in your right hand and nothing in your left hand., give one word answer True or False to this assert statement: assert('close' to 'alarm_clock'), 
+prediction True
+assert assert('alarm_clock' in 'hands')
+prompt You see alarm_clock is on, plugged_in
+alarm_clock is close to character
+alarm_clock is inside bedroom
+character is close to alarm_clock
+character is holds_rh alarm_clock
+alarm_clock is inside bedroom
+You have Currently, you are standing in the bedroom, and holding alarm_clock in your right hand and nothing in your left hand., give one word answer True or False to this assert statement: assert('alarm_clock' in 'hands'), 
+prediction False
+assert assert('alarm_clock' in 'hands')
+prompt You see alarm_clock is on, plugged_in
+character is facing alarm_clock
+character is close to alarm_clock
+character is holds_rh alarm_clock
+alarm_clock is inside bedroom
+alarm_clock is close to character
+character is holds_lh alarm_clock
+alarm_clock is inside bedroom
+You have Currently, you are standing in the bedroom, and holding alarm_clock in your right hand and alarm_clock in your left hand., give one word answer True or False to this assert statement: assert('alarm_clock' in 'hands'), 
+prediction True
+assert assert('alarm_clock' in 'hands')
+prompt You see alarm_clock is on, plugged_in
+character is facing alarm_clock
+character is close to alarm_clock
+character is holds_rh alarm_clock
+alarm_clock is inside bedroom
+alarm_clock is close to character
+character is holds_lh alarm_clock
+alarm_clock is inside bedroom
+You have Currently, you are standing in the bedroom, and holding alarm_clock in your right hand and alarm_clock in your left hand., give one word answer True or False to this assert statement: assert('alarm_clock' in 'hands'), 
+prediction True
+assert assert('alarm_clock' in 'hands')
+prompt You see alarm_clock is plugged_in, off
+character is facing alarm_clock
+character is close to alarm_clock
+character is holds_rh alarm_clock
+alarm_clock is inside bedroom
+alarm_clock is close to character
+character is holds_lh alarm_clock
+alarm_clock is inside bedroom
+You have Currently, you are standing in the bedroom, and holding alarm_clock in your right hand and alarm_clock in your left hand., give one word answer True or False to this assert statement: assert('alarm_clock' in 'hands'), 
+prediction True
+end of script
+gcr, sr 1.0 1
+6
+assert assert('close' to 'milk')
+prompt You see 
+You have Currently, you are standing in the dining_room, and holding nothing in your right hand and nothing in your left hand., give one word answer True or False to this assert statement: assert('close' to 'milk'), 
+prediction False
+execute failed at [GRAB] <milk> (1047)
+7
+assert assert('close' to 'television')
+prompt You see television is plugged_in, off, clean
+drawing is facing television
+orchid is close to television
+television is close to orchid
+mat is facing television
+television is on tvstand
+wallshelf is facing television
+television is close to wall
+floor is close to television
+ceilinglamp is facing television
+wall is close to television
+television is close to tvstand
+television is facing wall_clock
+wall_clock is facing television
+television is close to floor
+wall is facing television
+orchid is facing television
+television is close to photoframe
+floor is facing television
+bench is facing television
+light is facing television
+television is close to character
+ceiling is facing television
+bookshelf is facing television
+table is facing television
+television is inside dining_room
+photoframe is close to television
+door is facing television
+tvstand is close to television
+television is facing drawing
+character is close to television
+phone is facing television
+television is inside dining_room
+You have Currently, you are standing in the dining_room, and holding nothing in your right hand and nothing in your left hand., give one word answer True or False to this assert statement: assert('close' to 'television'), 
+prediction True
+assert assert('television' is 'switchoff')
+prompt You see television is plugged_in, off, clean
+drawing is facing television
+orchid is close to television
+television is close to orchid
+mat is facing television
+television is on tvstand
+wallshelf is facing television
+television is close to wall
+floor is close to television
+ceilinglamp is facing television
+wall is close to television
+television is close to tvstand
+television is facing wall_clock
+wall_clock is facing television
+television is close to floor
+wall is facing television
+orchid is facing television
+television is close to photoframe
+floor is facing television
+bench is facing television
+light is facing television
+television is close to character
+ceiling is facing television
+bookshelf is facing television
+table is facing television
+television is inside dining_room
+photoframe is close to television
+door is facing television
+tvstand is close to television
+television is facing drawing
+character is close to television
+phone is facing television
+television is inside dining_room
+You have Currently, you are standing in the dining_room, and holding nothing in your right hand and nothing in your left hand., give one word answer True or False to this assert statement: assert('television' is 'switchoff'), 
+prediction False
+execute failed at assert else at ['[SWITCHOFF] <television> (410)']
+8
+assert assert('close' to 'desk')
+prompt You see desk is clean
+desk is close to light
+chair is close to desk
+drawing is close to desk
+desk is close to computer
+desk is close to floor
+mouse is close to desk
+desk is close to character
+desk is close to wall
+cpuscreen is on desk
+mousepad is on desk
+mousepad is close to desk
+cpuscreen is close to desk
+mouse is on desk
+desk is facing drawing
+desk is close to doorjamb
+wall is close to desk
+floor is close to desk
+desk is on floor
+desk is close to cpuscreen
+light is close to desk
+computer is close to desk
+doorjamb is close to desk
+desk is inside bedroom
+desk is close to mousepad
+desk is close to mouse
+keyboard is on desk
+character is close to desk
+desk is close to keyboard
+desk is close to chair
+desk is close to drawing
+keyboard is close to desk
+desk is inside bedroom
+You have Currently, you are standing in the bedroom, and holding nothing in your right hand and nothing in your left hand., give one word answer True or False to this assert statement: assert('close' to 'desk'), 
+prediction True
+execute failed at [SIT] <desk> (104)
+9
+assert assert('close' to 'chair')
+prompt You see chair is clean
+chair is close to desk
+keyboard is close to chair
+chair is close to cpuscreen
+chair is close to mouse
+chair is facing drawing
+cpuscreen is close to chair
+chair is close to nightstand
+ceiling is close to chair
+chair is close to ceiling
+mat is close to chair
+light is close to chair
+chair is close to mat
+chair is close to character
+nightstand is close to chair
+wall is close to chair
+chair is close to floor
+chair is close to mousepad
+chair is inside bedroom
+chair is close to drawing
+chair is close to keyboard
+character is close to chair
+chair is close to light
+computer is close to chair
+chair is close to computer
+drawing is close to chair
+chair is close to wall
+mouse is close to chair
+desk is close to chair
+floor is close to chair
+mousepad is close to chair
+chair,chair is inside bedroom
+You have Currently, you are standing in the bedroom, and holding nothing in your right hand and nothing in your left hand., give one word answer True or False to this assert statement: assert('close' to 'chair'), 
+prediction True
+execute failed at [FIND] <computer> (417)
+10
+assert assert('close' to 'coffee_pot')
+prompt You see coffee_pot is 
+character is close to coffee_pot
+coffee_pot is close to character
+coffee_pot is inside dining_room
+coffee_pot is inside dining_room
+You have Currently, you are standing in the dining_room, and holding nothing in your right hand and nothing in your left hand., give one word answer True or False to this assert statement: assert('close' to 'coffee_pot'), 
+prediction True
+assert assert('close' to 'ground_coffee')
+prompt You see ground_coffee is 
+ground_coffee is inside dining_room
+character is close to ground_coffee
+water is close to ground_coffee
+ground_coffee is close to water
+ground_coffee is close to character
+ground_coffee is inside dining_room
+You have Currently, you are standing in the dining_room, and holding nothing in your right hand and nothing in your left hand., give one word answer True or False to this assert statement: assert('close' to 'ground_coffee'), 
+prediction True
+assert assert('close' to 'coffee_pot')
+prompt You see coffee_pot is 
+coffee_pot is inside dining_room
+coffee_pot is inside dining_room
+You have Currently, you are standing in the dining_room, and holding ground_coffee in your right hand and nothing in your left hand., give one word answer True or False to this assert statement: assert('close' to 'coffee_pot'), 
+prediction False
+execute failed at [PUTIN] <ground_coffee> (1029) <coffee_pot> (1026)
+11
+assert assert('close' to 'toilet')
+prompt You see toilet is closed, off, clean
+toilet is inside bathroom
+toilet is close to wall
+shower is close to toilet
+toilet is close to floor
+wall is close to toilet
+toilet is close to character
+character is close to toilet
+floor is close to toilet
+toilet is close to shower
+toilet is inside bathroom
+You have Currently, you are standing in the bathroom, and holding nothing in your right hand and nothing in your left hand., give one word answer True or False to this assert statement: assert('close' to 'toilet'), 
+prediction True
+end of script
+gcr, sr 0.6666666666666666 0
+12
+end of script
+gcr, sr 0.3333333333333333 0
+13
+assert assert('close' to 'bed')
+prompt You see bed is clean
+bed is close to floor
+bed is close to tablelamp
+bed is facing drawing
+bed is on mat
+wall is close to bed
+bed is close to character
+bed is close to mat
+window is close to bed
+bed is close to curtain
+floor is close to bed
+bed is close to wall
+bed is close to window
+bed is close to nightstand
+bed is inside bedroom
+curtain is close to bed
+nightstand is close to bed
+clothes_pants is close to bed
+bed is on floor
+tablelamp is close to bed
+sheets is close to bed
+character is close to bed
+mat is close to bed
+bed is close to clothes_pants
+bed is close to sheets
+bed is inside bedroom
+You have Currently, you are standing in the bedroom, and holding nothing in your right hand and nothing in your left hand., give one word answer True or False to this assert statement: assert('close' to 'bed'), 
+prediction True
+end of script
+gcr, sr 0.6666666666666666 0
+14
+assert assert('close' to 'lightswitch')
+prompt You see lightswitch is on, plugged_in
+lightswitch is close to character
+character is close to lightswitch
+lightswitch is inside bedroom
+lightswitch is inside bedroom
+You have Currently, you are standing in the bedroom, and holding nothing in your right hand and nothing in your left hand., give one word answer True or False to this assert statement: assert('close' to 'lightswitch'), 
+prediction True
+end of script
+gcr, sr 0.6666666666666666 0
+15
+assert assert('close' to 'cup')
+prompt You see cup is 
+cup is close to character
+character is close to cup
+cup is inside dining_room
+cup is inside dining_room
+You have Currently, you are standing in the dining_room, and holding nothing in your right hand and nothing in your left hand., give one word answer True or False to this assert statement: assert('close' to 'cup'), 
+prediction False
+assert assert('close' to 'sink')
+prompt You see 
+You have Currently, you are standing in the bathroom, and holding cup in your right hand and nothing in your left hand., give one word answer True or False to this assert statement: assert('close' to 'sink'), 
+prediction False
+end of script
+gcr, sr 0.0 0
+16
+assert assert('close' to 'toilet_paper')
+prompt You see toilet_paper is 
+toilet_paper is close to bathroom_cabinet
+toilet_paper is inside bathroom_cabinet
+character is close to toilet_paper
+toilet_paper is inside bathroom
+bathroom_cabinet is close to toilet_paper
+toilet_paper is close to character
+toilet_paper is inside bathroom
+You have Currently, you are standing in the bathroom, and holding nothing in your right hand and nothing in your left hand., give one word answer True or False to this assert statement: assert('close' to 'toilet_paper'), 
+prediction False
+execute failed at [GRAB] <toilet_paper> (1034)
+17
+assert assert('close' to 'shoes')
+prompt You see shoes is 
+character is close to shoes
+shoes is inside home_office
+shoes is close to character
+shoes is on character
+shoes is close to closet
+closet is close to shoes
+shoes is inside home_office
+You have Currently, you are standing in the home_office, and holding nothing in your right hand and nothing in your left hand., give one word answer True or False to this assert statement: assert('close' to 'shoes'), 
+prediction True
+end of script
+gcr, sr 0.5 0
+18
+assert assert('close' to 'book')
+prompt You see book is 
+book is close to character
+book is on bookshelf
+character is close to book
+book is close to bookshelf
+book is inside home_office
+bookshelf is close to book
+book is inside home_office
+You have Currently, you are standing in the home_office, and holding nothing in your right hand and nothing in your left hand., give one word answer True or False to this assert statement: assert('close' to 'book'), 
+prediction True
+assert assert('close' to 'chair')
+prompt You see chair is 
+character is close to chair
+chair is inside dining_room
+chair is close to character
+chair is inside dining_room
+You have Currently, you are standing in the dining_room, and holding book in your right hand and nothing in your left hand., give one word answer True or False to this assert statement: assert('close' to 'chair'), 
+prediction True
+assert assert('book' in 'hands')
+prompt You see book is 
+book is close to character
+character is close to book
+book is inside home_office
+character is holds_rh book
+book is inside home_office
+You have Currently, you are sitting on chair in the dining_room, and holding book in your right hand and nothing in your left hand., give one word answer True or False to this assert statement: assert('book' in 'hands'), 
+prediction False
+execute failed at [OPEN] <book> (1014)
+19
+assert assert('close' to 'washing_machine')
+prompt You see washing_machine is plugged_in, closed, off
+washing_machine is close to clothes_dress
+washing_machine is close to clothes_shirt
+clothes_dress is close to washing_machine
+clothes_shirt is inside washing_machine
+clothes_dress is inside washing_machine
+clothes_shirt is close to washing_machine
+washing_machine is inside dining_room
+washing_machine is close to character
+washing_machine is close to basket_for_clothes
+basket_for_clothes is close to washing_machine
+character is close to washing_machine
+washing_machine is inside dining_room
+You have Currently, you are standing in the dining_room, and holding nothing in your right hand and nothing in your left hand., give one word answer True or False to this assert statement: assert('close' to 'washing_machine'), 
+prediction True
+assert assert('washing_machine' is 'closed')
+prompt You see washing_machine is plugged_in, closed, off
+washing_machine is close to clothes_dress
+washing_machine is close to clothes_shirt
+clothes_dress is close to washing_machine
+clothes_shirt is inside washing_machine
+clothes_dress is inside washing_machine
+clothes_shirt is close to washing_machine
+washing_machine is inside dining_room
+washing_machine is close to character
+washing_machine is close to basket_for_clothes
+basket_for_clothes is close to washing_machine
+character is close to washing_machine
+washing_machine is inside dining_room
+You have Currently, you are standing in the dining_room, and holding nothing in your right hand and nothing in your left hand., give one word answer True or False to this assert statement: assert('washing_machine' is 'closed'), 
+prediction True
+assert assert('washing_machine' is 'opened')
+prompt You see washing_machine is plugged_in, open, off
+washing_machine is close to clothes_dress
+washing_machine is close to clothes_shirt
+clothes_dress is close to washing_machine
+clothes_shirt is inside washing_machine
+clothes_dress is inside washing_machine
+clothes_shirt is close to washing_machine
+washing_machine is inside dining_room
+washing_machine is close to character
+washing_machine is close to basket_for_clothes
+basket_for_clothes is close to washing_machine
+character is close to washing_machine
+washing_machine is inside dining_room
+You have Currently, you are standing in the dining_room, and holding nothing in your right hand and nothing in your left hand., give one word answer True or False to this assert statement: assert('washing_machine' is 'opened'), 
+prediction False
+execute failed at assert else at ['[OPEN] <washing_machine> (1056)']
+20
+assert assert('close' to 'couch')
+prompt You see couch is clean
+drawing is close to couch
+couch is on mat
+cellphone is close to couch
+couch is close to cellphone
+ceilinglamp is close to couch
+table is inside couch
+couch is close to window
+couch is close to pillow
+mat is close to couch
+couch is close to character
+couch is close to floor
+couch is close to wall
+couch is close to curtain
+pillow is close to couch
+couch is close to walllamp
+remote_control is close to couch
+curtain is close to couch
+couch is facing television
+window is close to couch
+walllamp is close to couch
+pillow is inside couch
+couch is close to remote_control
+couch is close to television
+couch is close to table
+tvstand is close to couch
+couch is inside home_office
+wall is close to couch
+floor is close to couch
+table is close to couch
+couch is close to tvstand
+couch is close to ceilinglamp
+couch is close to drawing
+character is close to couch
+keyboard is close to couch
+couch is close to mat
+television is close to couch
+couch is close to keyboard
+couch is inside home_office
+You have Currently, you are standing in the home_office, and holding nothing in your right hand and nothing in your left hand., give one word answer True or False to this assert statement: assert('close' to 'couch'), 
+prediction True
+assert assert('close' to 'cellphone')
+prompt You see cellphone is 
+cellphone is inside home_office
+cellphone is close to couch
+couch is close to cellphone
+character is close to cellphone
+cellphone is close to character
+cellphone is inside home_office
+You have Currently, you are sitting on couch in the home_office, and holding nothing in your right hand and nothing in your left hand., give one word answer True or False to this assert statement: assert('close' to 'cellphone'), 
+prediction True
+assert assert('cellphone' in 'hands')
+prompt You see cellphone is 
+cellphone is close to character
+character is holds_rh cellphone
+cellphone is inside home_office
+character is close to cellphone
+cellphone is inside home_office
+You have Currently, you are sitting on couch in the home_office, and holding cellphone in your right hand and nothing in your left hand., give one word answer True or False to this assert statement: assert('cellphone' in 'hands'), 
+prediction True
+end of script
+gcr, sr 1.0 1
+21
+assert assert('close' to 'document')
+prompt You see document is 
+document is close to computer
+computer is close to document
+chair is close to document
+character is close to document
+document is close to chair
+document is close to character
+document is inside home_office
+document is inside home_office
+You have Currently, you are standing in the home_office, and holding nothing in your right hand and nothing in your left hand., give one word answer True or False to this assert statement: assert('close' to 'document'), 
+prediction True
+assert assert('close' to 'printer')
+prompt You see printer is plugged_in, off
+printer is inside home_office
+printer is close to computer
+computer is close to printer
+printer is inside home_office
+You have Currently, you are standing in the home_office, and holding document in your right hand and nothing in your left hand., give one word answer True or False to this assert statement: assert('close' to 'printer'), 
+prediction True
+execute failed at [PUTIN] <document> (1040) <printer> (1038)
+22
+assert assert('close' to 'couch')
+prompt You see couch is clean
+drawing is close to couch
+couch is on mat
+cellphone is close to couch
+couch is close to cellphone
+ceilinglamp is close to couch
+table is inside couch
+couch is close to window
+couch is close to pillow
+mat is close to couch
+couch is close to character
+couch is close to floor
+couch is close to wall
+couch is close to curtain
+pillow is close to couch
+couch is close to walllamp
+remote_control is close to couch
+curtain is close to couch
+couch is facing television
+window is close to couch
+walllamp is close to couch
+pillow is inside couch
+couch is close to remote_control
+couch is close to television
+couch is close to table
+tvstand is close to couch
+couch is inside home_office
+wall is close to couch
+floor is close to couch
+table is close to couch
+couch is close to tvstand
+couch is close to ceilinglamp
+couch is close to drawing
+character is close to couch
+keyboard is close to couch
+couch is close to mat
+television is close to couch
+couch is close to keyboard
+couch is inside home_office
+You have Currently, you are standing in the home_office, and holding nothing in your right hand and nothing in your left hand., give one word answer True or False to this assert statement: assert('close' to 'couch'), 
+prediction True
+execute failed at [FIND] <television> (248)
+23
+assert assert('close' to 'lightswitch')
+prompt You see lightswitch is on, plugged_in
+lightswitch is close to character
+character is close to lightswitch
+lightswitch is inside bedroom
+lightswitch is inside bedroom
+You have Currently, you are standing in the bedroom, and holding nothing in your right hand and nothing in your left hand., give one word answer True or False to this assert statement: assert('close' to 'lightswitch'), 
+prediction True
+execute failed at [SWITCHON] <lightswitch> (1000)
+24
+assert assert('close' to 'shoes')
+prompt You see shoes is 
+character is close to shoes
+shoes is inside home_office
+shoes is close to character
+shoes is on character
+shoes is close to closet
+closet is close to shoes
+shoes is inside home_office
+You have Currently, you are standing in the home_office, and holding nothing in your right hand and nothing in your left hand., give one word answer True or False to this assert statement: assert('close' to 'shoes'), 
+prediction True
+assert assert('close' to 'closet')
+prompt You see closet is closed
+closet is inside home_office
+closet is close to character
+character is close to closet
+shoes is close to closet
+closet is close to shoes
+closet is inside home_office
+You have Currently, you are standing in the home_office, and holding nothing in your right hand and nothing in your left hand., give one word answer True or False to this assert statement: assert('close' to 'closet'), 
+prediction True
+assert assert('closet' is 'closed')
+prompt You see closet is closed
+closet is inside home_office
+closet is close to character
+character is close to closet
+shoes is close to closet
+closet is close to shoes
+closet is inside home_office
+You have Currently, you are standing in the home_office, and holding nothing in your right hand and nothing in your left hand., give one word answer True or False to this assert statement: assert('closet' is 'closed'), 
+prediction True
+assert assert('close' to 'shoes')
+prompt You see shoes is 
+character is close to shoes
+shoes is inside home_office
+shoes is close to character
+shoes is close to closet
+closet is close to shoes
+shoes is inside home_office
+You have Currently, you are standing in the home_office, and holding nothing in your right hand and nothing in your left hand., give one word answer True or False to this assert statement: assert('close' to 'shoes'), 
+prediction True
+assert assert('closet' is 'opened')
+prompt You see closet is open
+character is close to closet
+closet is close to character
+closet is inside home_office
+closet is inside home_office
+You have Currently, you are standing in the home_office, and holding shoes in your right hand and nothing in your left hand., give one word answer True or False to this assert statement: assert('closet' is 'opened'), 
+prediction True
+assert assert('closet' is 'opened')
+prompt You see closet is open
+closet is inside home_office
+closet is close to character
+character is close to closet
+shoes is inside closet
+shoes is close to closet
+closet is close to shoes
+closet is inside home_office
+You have Currently, you are standing in the home_office, and holding nothing in your right hand and nothing in your left hand., give one word answer True or False to this assert statement: assert('closet' is 'opened'), 
+prediction True
+end of script
+gcr, sr 1.0 1
+25
+script 25 has illegal [action]()
+26
+assert assert('close' to 'bed')
+prompt You see bed is clean
+bed is close to floor
+bed is close to tablelamp
+bed is facing drawing
+bed is on mat
+wall is close to bed
+bed is close to character
+bed is close to mat
+window is close to bed
+bed is close to curtain
+floor is close to bed
+bed is close to wall
+bed is close to window
+bed is close to nightstand
+bed is inside bedroom
+curtain is close to bed
+nightstand is close to bed
+clothes_pants is close to bed
+bed is on floor
+tablelamp is close to bed
+sheets is close to bed
+character is close to bed
+mat is close to bed
+bed is close to clothes_pants
+bed is close to sheets
+bed is inside bedroom
+You have Currently, you are standing in the bedroom, and holding nothing in your right hand and nothing in your left hand., give one word answer True or False to this assert statement: assert('close' to 'bed'), 
+prediction True
+execute failed at [FIND] <lightswitch> (1000)
+27
+assert assert('close' to 'cleaning_solution')
+prompt You see cleaning_solution is 
+cleaning_solution is close to character
+mop is close to cleaning_solution
+cleaning_solution is close to mop
+character is close to cleaning_solution
+cleaning_solution is inside bathroom
+cleaning_solution is inside bathroom
+You have Currently, you are standing in the bathroom, and holding nothing in your right hand and nothing in your left hand., give one word answer True or False to this assert statement: assert('close' to 'cleaning_solution'), 
+prediction True
+assert assert('close' to 'sponge')
+prompt You see sponge is 
+sponge is inside dining_room
+sponge is close to character
+character is close to sponge
+sponge is inside dining_room
+You have Currently, you are standing in the dining_room, and holding cleaning_solution in your right hand and nothing in your left hand., give one word answer True or False to this assert statement: assert('close' to 'sponge'), 
+prediction True
+assert assert('close' to 'floor')
+prompt You see floor is clean
+floor is close to wall
+wall is close to floor
+faucet is close to floor
+floor is close to bathroom_counter
+floor is close to floor
+door is close to floor
+bathroom_counter is close to floor
+floor is close to towel_rack
+towel_rack is close to floor
+floor is close to light
+floor is close to window
+floor is close to mat
+window is close to floor
+floor is close to faucet
+floor is close to doorjamb
+bathtub is on floor
+shower is close to floor
+walllamp is close to floor
+bathtub is close to floor
+door is on floor
+floor is close to walllamp
+doorjamb is close to floor
+light is close to floor
+floor is close to shower
+floor is close to bathtub
+curtain is close to floor
+floor is close to door
+toilet is close to floor
+floor is close to curtain
+mat is close to floor
+floor is inside bathroom
+doorjamb is on floor
+character is close to floor
+floor is close to character
+floor is close to toilet
+floor,floor,floor,floor,floor,floor,floor is inside bathroom
+You have Currently, you are standing in the bathroom, and holding cleaning_solution in your right hand and sponge in your left hand., give one word answer True or False to this assert statement: assert('close' to 'floor'), 
+prediction False
+execute failed at [WIPE] <floor> (5)
+{'executability': 0.4643, 'success rate': 0.1071, 'gcr': 0.244}
+token used [1434, 243, 274, 0, 208, 586, 56, 550, 271, 251, 302, 125, 0, 212, 87, 137, 131, 108, 281, 569, 524, 198, 326, 87, 624, 212, 521]
+avg token used 308.037037037037

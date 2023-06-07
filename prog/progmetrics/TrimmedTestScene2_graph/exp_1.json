@@ -1,0 +1,134 @@
+{
+ "0": {
+  "executability": 1,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1486
+ },
+ "1": {
+  "executability": 0,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1665
+ },
+ "2": {
+  "executability": 1,
+  "success rate": 0,
+  "gcr": 0.6,
+  "tokens": 1682
+ },
+ "3": {
+  "executability": 0,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1241
+ },
+ "4": {
+  "executability": 0,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1591
+ },
+ "5": {
+  "executability": 0,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1366
+ },
+ "6": {
+  "executability": 1,
+  "success rate": 0,
+  "gcr": 0.75,
+  "tokens": 1240
+ },
+ "7": {
+  "executability": 0,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1470
+ },
+ "8": {
+  "executability": 0,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1203
+ },
+ "9": {
+  "executability": 0,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1627
+ },
+ "10": {
+  "executability": 1,
+  "success rate": 0,
+  "gcr": 0.3333333333333333,
+  "tokens": 1456
+ },
+ "11": {
+  "executability": 0,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1305
+ },
+ "12": {
+  "executability": 1,
+  "success rate": 0,
+  "gcr": 0.25,
+  "tokens": 1291
+ },
+ "13": {
+  "executability": 0,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1489
+ },
+ "14": {
+  "executability": 0,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1567
+ },
+ "15": {
+  "executability": 0,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1621
+ },
+ "16": {
+  "executability": 0,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1528
+ },
+ "17": {
+  "executability": 0,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1502
+ },
+ "18": {
+  "executability": 0,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1360
+ },
+ "19": {
+  "executability": 1,
+  "success rate": 0,
+  "gcr": 0.3333333333333333,
+  "tokens": 1277
+ },
+ "20": {
+  "executability": 0,
+  "success rate": 0,
+  "gcr": 0.0,
+  "tokens": 1889
+ },
+ "21": {
+  "executability": 1,
+  "success rate": 0,
+  "gcr": 0.5,
+  "tokens": 1425
+ }
+}
